@@ -1,0 +1,60 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(c6bf1dfc-0519-4601-91d1-c521f5f88e8f), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 4 Scala sources to C:\Users\cws33\guichat\akkaserver\target\scala-2.12\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ChatClient.scala:7:13: object discovery is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.discovery.{Discovery,Lookup, ServiceDiscovery}[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ChatClient.scala:8:13: object discovery is not a member of package akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.discovery.ServiceDiscovery.Resolved[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ChatClient.scala:10:18: object protocol is not a member of package com.hep88[0m
+[0m[[0m[31merror[0m] [0m[0mimport com.hep88.protocol.JsonSerializable[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ClientApp.scala:10:8: not found: object scalafxml[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafxml.core.{FXMLLoader, NoDependencyResolver}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ClientApp.scala:19:20: not found: type FXMLLoader[0m
+[0m[[0m[31merror[0m] [0m[0m  val loader = new FXMLLoader(null, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ClientApp.scala:19:37: not found: value NoDependencyResolver[0m
+[0m[[0m[31merror[0m] [0m[0m  val loader = new FXMLLoader(null, NoDependencyResolver)[0m
+[0m[[0m[31merror[0m] [0m[0m                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ClientApp.scala:22:74: type Controller is not a member of com.hep88.view.MainWindowController[0m
+[0m[[0m[31merror[0m] [0m[0m  val control = loader.getController[com.hep88.view.MainWindowController#Controller]()[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ChatClient.scala:58:18: not found: value SendMessageL[0m
+[0m[[0m[31merror[0m] [0m[0m            case SendMessageL(target, content) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ChatClient.scala:61:18: not found: value Message[0m
+[0m[[0m[31merror[0m] [0m[0m            case Message(msg, from) =>[0m
+[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ChatClient.scala:75:53: value self is not a member of Any[0m
+[0m[[0m[31merror[0m] [0m[0m            remote ! ChatServer.Leave(name, context.self)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ChatClient.scala:83:19: not found: value AddPortMapping[0m
+[0m[[0m[31merror[0m] [0m[0m        UpnpRef ! AddPortMapping(20000)[0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ChatServer.scala:7:18: imported `Upnp` is permanently hidden by definition of object Upnp in package hep88[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.hep88.Upnp[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ClientApp.scala:33:5: not found: value greeterMain[0m
+[0m[[0m[31merror[0m] [0m[0m    greeterMain.terminate[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\view\MainWindowController.scala:3:8: not found: object scalafxml[0m
+[0m[[0m[31merror[0m] [0m[0mimport scalafxml.core.macros.sfxml[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\view\MainWindowController.scala:11:2: not found: type sfxml[0m
+[0m[[0m[31merror[0m] [0m[0m@sfxml[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\view\MainWindowController.scala:37:14: value greeterMain is not a member of object com.hep88.Client[0m
+[0m[[0m[31merror[0m] [0m[0m      Client.greeterMain ! ChatClient.SendMessageL(listUser.selectionModel().selectedItem.value.ref,[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\view\MainWindowController.scala:37:39: value SendMessageL is not a member of object com.hep88.ChatClient[0m
+[0m[[0m[31merror[0m] [0m[0m      Client.greeterMain ! ChatClient.SendMessageL(listUser.selectionModel().selectedItem.value.ref,[0m
+[0m[[0m[31merror[0m] [0m[0m                                      ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m16 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 3 s, completed Nov 26, 2022 12:55:45 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

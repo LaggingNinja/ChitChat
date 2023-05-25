@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(75712df8-40c1-4a80-b2f8-e1f4fd75a1fc), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\cws33\guichat\akkaserver\target\scala-2.12\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ChatClient.scala:50:100: comparing values of types akka.actor.Address and scalafx.collections.ObservableHashSet[com.hep88.User] using `==` will always yield false[0m
+[0m[[0m[33mwarn[0m] [0m[0m                Client.control.updateList(members.toList.filter(y => ! unreachables.exists (x => x == members)))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                                   ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ChatClient.scala:56:91: comparing values of types akka.actor.Address and scalafx.collections.ObservableHashSet[com.hep88.User] using `==` will always yield false[0m
+[0m[[0m[33mwarn[0m] [0m[0m            Client.control.updateList(ns.toList.filter(y => ! unreachables.exists (x => x == members)))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mtwo warnings found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 89 s (01:29), completed Nov 28, 2022 11:33:59 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[31merror[0m] [0m[0mserver failed to start on local:sbt-server-2803f758b1deb20ef81b. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-2803f758b1deb20ef81b_lock, error 5[0m

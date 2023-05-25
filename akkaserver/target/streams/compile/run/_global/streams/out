@@ -1,0 +1,31 @@
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: Exception in Application start method[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:917)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication$1(LauncherImpl.java:182)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.NullPointerException[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.hep88.Client$$anon$1.<init>(ClientApp.scala:26)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.hep88.Client$.delayedEndpoint$com$hep88$Client$1(ClientApp.scala:25)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.hep88.Client$delayedInit$body.apply(ClientApp.scala:15)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafx.application.JFXApp.$anonfun$init$1(JFXApp.scala:302)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafx.application.JFXApp.$anonfun$init$1$adapted(JFXApp.scala:302)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.foreach(List.scala:431)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:47)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafx.application.JFXApp.init(JFXApp.scala:302)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafx.application.JFXApp.init$(JFXApp.scala:302)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.hep88.Client$.init(ClientApp.scala:15)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafx.application.AppHelper.start(AppHelper.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.security.AccessController.doPrivileged(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.glass.ui.win.WinApplication.lambda$null$4(WinApplication.java:185)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) Exception in Application start method[0m

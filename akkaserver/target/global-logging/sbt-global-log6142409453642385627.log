@@ -1,0 +1,80 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(b3c67683-2291-4c2b-aea5-d218e80977d3), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: Exception in Application start method[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.javafx.application.LauncherImpl.launchApplication1(LauncherImpl.java:917)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication$1(LauncherImpl.java:182)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: javafx.fxml.LoadException: [0m
+[0m[[0m[31merror[0m] [0m[0munknown path[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m	at javafx.fxml.FXMLLoader.constructLoadException(FXMLLoader.java:2601)[0m
+[0m[[0m[31merror[0m] [0m[0m	at javafx.fxml.FXMLLoader.importClass(FXMLLoader.java:2848)[0m
+[0m[[0m[31merror[0m] [0m[0m	at javafx.fxml.FXMLLoader.processImport(FXMLLoader.java:2692)[0m
+[0m[[0m[31merror[0m] [0m[0m	at javafx.fxml.FXMLLoader.processProcessingInstruction(FXMLLoader.java:2661)[0m
+[0m[[0m[31merror[0m] [0m[0m	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2517)[0m
+[0m[[0m[31merror[0m] [0m[0m	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2425)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.hep88.Client$.delayedEndpoint$com$hep88$Client$1(ClientApp.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.hep88.Client$delayedInit$body.apply(ClientApp.scala:15)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafx.application.JFXApp.$anonfun$init$1(JFXApp.scala:302)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafx.application.JFXApp.$anonfun$init$1$adapted(JFXApp.scala:302)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.foreach(List.scala:431)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:47)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafx.application.JFXApp.init(JFXApp.scala:302)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafx.application.JFXApp.init$(JFXApp.scala:302)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.hep88.Client$.init(ClientApp.scala:15)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafx.application.AppHelper.start(AppHelper.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.security.AccessController.doPrivileged(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.glass.ui.win.WinApplication.lambda$null$4(WinApplication.java:185)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0mCaused by: java.lang.ClassNotFoundException: com.gluonhq.charm.glisten.control.Icon[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.net.URLClassLoader.findClass(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.ManagedClassLoader.findClass(ManagedClassLoader.java:102)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.ClassLoader.loadClass(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.ClassLoader.loadClass(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m	at javafx.fxml.FXMLLoader.loadTypeForPackage(FXMLLoader.java:2916)[0m
+[0m[[0m[31merror[0m] [0m[0m	at javafx.fxml.FXMLLoader.loadType(FXMLLoader.java:2905)[0m
+[0m[[0m[31merror[0m] [0m[0m	at javafx.fxml.FXMLLoader.importClass(FXMLLoader.java:2846)[0m
+[0m[[0m[31merror[0m] [0m[0m	at javafx.fxml.FXMLLoader.processImport(FXMLLoader.java:2692)[0m
+[0m[[0m[31merror[0m] [0m[0m	at javafx.fxml.FXMLLoader.processProcessingInstruction(FXMLLoader.java:2661)[0m
+[0m[[0m[31merror[0m] [0m[0m	at javafx.fxml.FXMLLoader.loadImpl(FXMLLoader.java:2517)[0m
+[0m[[0m[31merror[0m] [0m[0m	at javafx.fxml.FXMLLoader.load(FXMLLoader.java:2425)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.hep88.Client$.delayedEndpoint$com$hep88$Client$1(ClientApp.scala:20)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.hep88.Client$delayedInit$body.apply(ClientApp.scala:15)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function0.apply$mcV$sp(Function0.scala:39)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function0.apply$mcV$sp$(Function0.scala:39)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.runtime.AbstractFunction0.apply$mcV$sp(AbstractFunction0.scala:17)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafx.application.JFXApp.$anonfun$init$1(JFXApp.scala:302)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafx.application.JFXApp.$anonfun$init$1$adapted(JFXApp.scala:302)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.foreach(List.scala:431)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.generic.TraversableForwarder.foreach(TraversableForwarder.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.generic.TraversableForwarder.foreach$(TraversableForwarder.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.mutable.ListBuffer.foreach(ListBuffer.scala:47)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafx.application.JFXApp.init(JFXApp.scala:302)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafx.application.JFXApp.init$(JFXApp.scala:302)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.hep88.Client$.init(ClientApp.scala:15)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafx.application.AppHelper.start(AppHelper.scala:33)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$8(LauncherImpl.java:863)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.javafx.application.PlatformImpl.lambda$runAndWait$7(PlatformImpl.java:326)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.javafx.application.PlatformImpl.lambda$null$5(PlatformImpl.java:295)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.security.AccessController.doPrivileged(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.javafx.application.PlatformImpl.lambda$runLater$6(PlatformImpl.java:294)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.glass.ui.InvokeLaterDispatcher$Future.run(InvokeLaterDispatcher.java:95)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.glass.ui.win.WinApplication._runLoop(Native Method)[0m
+[0m[[0m[31merror[0m] [0m[0m	at com.sun.glass.ui.win.WinApplication.lambda$null$4(WinApplication.java:185)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Unknown Source)[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) Exception in Application start method[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 3 s, completed Nov 26, 2022 9:00:33 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[31merror[0m] [0m[0mserver failed to start on local:sbt-server-2803f758b1deb20ef81b. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-2803f758b1deb20ef81b_lock, error 5[0m

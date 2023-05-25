@@ -1,0 +1,41 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(82b9de25-09c7-4940-9275-30aca8cb981b), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to C:\Users\cws33\guichat\akkaserver\target\scala-2.12\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ChatClient.scala:81:38: not enough arguments for method apply: (name: String, from: akka.actor.typed.ActorRef[com.hep88.ChatClient.Command])com.hep88.ChatServer.Leave in object Leave.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter from.[0m
+[0m[[0m[31merror[0m] [0m[0m            remote ! ChatServer.Leave(name)[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ChatClient.scala:154:42: not enough arguments for method apply: (clientName: String, from: akka.actor.typed.ActorRef[com.hep88.ChatClient.Command])com.hep88.ChatServer.JoinChat in object JoinChat.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter from.[0m
+[0m[[0m[31merror[0m] [0m[0m                        remote ! JoinChat(name)[0m
+[0m[[0m[31merror[0m] [0m[0m                                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ChatServer.scala:22:21: missing parameter type[0m
+[0m[[0m[31merror[0m] [0m[0m  members.onChange((hs)=>{[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ChatServer.scala:35:26: wrong number of arguments for pattern com.hep88.ChatServer.JoinChat(clientName: String,from: akka.actor.typed.ActorRef[com.hep88.ChatClient.Command])[0m
+[0m[[0m[31merror[0m] [0m[0m            case JoinChat(name)=>[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ChatServer.scala:36:41: not enough arguments for method apply: (name: String, ref: akka.actor.typed.ActorRef[com.hep88.ChatClient.Command])com.hep88.User in object User.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter ref.[0m
+[0m[[0m[31merror[0m] [0m[0m              ChatServer.members += User(name)[0m
+[0m[[0m[31merror[0m] [0m[0m                                        ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ChatServer.scala:37:15: not found: value from[0m
+[0m[[0m[31merror[0m] [0m[0m              from ! com.hep88.ChatClient.Joined(ChatServer.members.toList)[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ChatServer.scala:39:23: wrong number of arguments for pattern com.hep88.ChatServer.Leave(name: String,from: akka.actor.typed.ActorRef[com.hep88.ChatClient.Command])[0m
+[0m[[0m[31merror[0m] [0m[0m            case Leave(name) => [0m
+[0m[[0m[31merror[0m] [0m[0m                      ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ChatServer.scala:40:28: not enough arguments for method apply: (name: String, ref: akka.actor.typed.ActorRef[com.hep88.ChatClient.Command])com.hep88.User in object User.[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter ref.[0m
+[0m[[0m[31merror[0m] [0m[0m            members -= User(name)[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\ChatServer.scala:7:18: imported `Upnp` is permanently hidden by definition of object Upnp in package hep88[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.hep88.Upnp[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m8 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Nov 28, 2022 12:01:40 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[31merror[0m] [0m[0mserver failed to start on local:sbt-server-2803f758b1deb20ef81b. java.io.IOException: Could not create lock for \\.\pipe\sbt-server-2803f758b1deb20ef81b_lock, error 5[0m

@@ -1,0 +1,42 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(56f20c7b-c3a2-47b6-8f6b-c4b4924e0b25), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to C:\Users\cws33\guichat\akkaserver\target\scala-2.12\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\view\MainWindowController.scala:11:2: exception during macro expansion: [0m
+[0m[[0m[31merror[0m] [0m[0mscala.reflect.macros.TypecheckException: trait ActorRef takes type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.$anonfun$typecheck$3(Typers.scala:44)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.$anonfun$typecheck$2(Typers.scala:38)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.doTypecheck$1(Typers.scala:37)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.$anonfun$typecheck$7(Typers.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Trees.wrappingIntoTerm(Trees.scala:1782)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.Trees.wrappingIntoTerm$(Trees.scala:1779)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.internal.SymbolTable.wrappingIntoTerm(SymbolTable.scala:28)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.typecheck(Typers.scala:50)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Typers.typecheck$(Typers.scala:32)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Context.typecheck(Context.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.reflect.macros.contexts.Context.typecheck(Context.scala:18)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.toType$1(sfxmlMacro.scala:53)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.determineInputType$1(sfxmlMacro.scala:97)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.toJavaFXTypeOrOriginal$1(sfxmlMacro.scala:144)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.$anonfun$impl$11(sfxmlMacro.scala:181)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.map(List.scala:297)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.$anonfun$impl$10(sfxmlMacro.scala:180)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.map(List.scala:293)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.$anonfun$impl$9(sfxmlMacro.scala:180)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.collection.immutable.List.map(List.scala:297)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scalafxml.core.macros.sfxmlMacro$.impl(sfxmlMacro.scala:178)[0m
+[0m[[0m[31merror[0m] [0m[0m@sfxml[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\view\MainWindowController.scala:50:3: Symbol 'type com.hep88.view.MainWindowController.Controller' is missing from the classpath.[0m
+[0m[[0m[31merror[0m] [0m[0mThis symbol is required by 'value com.hep88.Client.control'.[0m
+[0m[[0m[31merror[0m] [0m[0mMake sure that type Controller is in your classpath and check for conflicting dependencies with `-Ylog-classpath`.[0m
+[0m[[0m[31merror[0m] [0m[0mA full rebuild may help if 'Client.class' was compiled against an incompatible version of com.hep88.view.MainWindowController.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\cws33\guichat\akkaserver\src\main\scala\com\hep88\view\MainWindowController.scala:46:35: trait ActorRef takes type parameters[0m
+[0m[[0m[31merror[0m] [0m[0m  def addText(text: String, from: ActorRef): Unit = {[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Nov 28, 2022 11:39:35 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

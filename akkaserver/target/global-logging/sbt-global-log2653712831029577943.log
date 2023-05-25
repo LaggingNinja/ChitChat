@@ -1,0 +1,10 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(compile, Some(7fc317bb-2a3a-4b2a-848c-53958e214b68), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / compile[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\cws33\Downloads\akkaserver\akkaserver\target\scala-2.12\classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mC:\Users\cws33\Downloads\akkaserver\akkaserver\src\main\scala\com\hep88\ChatClient.scala:8:18: imported `Upnp` is permanently hidden by definition of object Upnp in package hep88[0m
+[0m[[0m[33mwarn[0m] [0m[0mimport com.hep88.Upnp[0m
+[0m[[0m[33mwarn[0m] [0m[0m                 ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 4 s, completed Nov 22, 2022 10:22:53 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
