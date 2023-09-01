@@ -1,5 +1,5 @@
 # ChitChat!
-## Distributed chat system built with the AKKA library and Scala programming language.
+## Simple distributed chat system
 By Chong Wei Shen AKA LaggingNinja
 
 Contacts \
@@ -7,9 +7,9 @@ Discord: 阿轩~ Wei Shen#8528 \
 LinkedIn: Chong Wei Shen \
 Email: cws331600@gmail.com 
 
-This is a old group project by me and my groupmates, basically a simple chat system build with akka library and scala. 
+This is a group project by me and my groupmates, a simple chat system build with akka library and scala programming language. 
 
-In order for the it to work:\
+In order for it to work:\
 1.cd to the correct directory\
 2.enter "sbt"\
 3.enter "run"\
